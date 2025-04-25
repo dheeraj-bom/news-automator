@@ -1,0 +1,735 @@
+2025-04-22 14:23:55,945 - INFO - --- Starting News Fetching Process ---
+2025-04-22 14:23:55,946 - INFO - Loaded 40 countries from countries.txt
+2025-04-22 14:23:55,948 - INFO - Fetching news data for india from https://api.dailynewshighlights.com/country/india/summary
+2025-04-22 14:23:57,251 - ERROR - Error fetching data for india: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:23:57,253 - INFO - Fetching news data for united-arab-emirates from https://api.dailynewshighlights.com/country/united-arab-emirates/summary
+2025-04-22 14:23:58,057 - ERROR - Error fetching data for united-arab-emirates: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:23:58,058 - INFO - Fetching news data for united-states from https://api.dailynewshighlights.com/country/united-states/summary
+2025-04-22 14:23:58,880 - ERROR - Error fetching data for united-states: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:23:58,881 - INFO - Fetching news data for united-kingdom from https://api.dailynewshighlights.com/country/united-kingdom/summary
+2025-04-22 14:23:59,702 - ERROR - Error fetching data for united-kingdom: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:23:59,702 - INFO - Fetching news data for australia from https://api.dailynewshighlights.com/country/australia/summary
+2025-04-22 14:24:00,441 - ERROR - Error fetching data for australia: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:00,442 - INFO - Fetching news data for saudi-arabia from https://api.dailynewshighlights.com/country/saudi-arabia/summary
+2025-04-22 14:24:01,199 - ERROR - Error fetching data for saudi-arabia: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:01,201 - INFO - Fetching news data for singapore from https://api.dailynewshighlights.com/country/singapore/summary
+2025-04-22 14:24:01,810 - ERROR - Error fetching data for singapore: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:01,812 - INFO - Fetching news data for philippines from https://api.dailynewshighlights.com/country/philippines/summary
+2025-04-22 14:24:02,395 - ERROR - Error fetching data for philippines: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:02,396 - INFO - Fetching news data for south-korea from https://api.dailynewshighlights.com/country/south-korea/summary
+2025-04-22 14:24:03,000 - ERROR - Error fetching data for south-korea: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:03,002 - INFO - Fetching news data for qatar from https://api.dailynewshighlights.com/country/qatar/summary
+2025-04-22 14:24:03,550 - ERROR - Error fetching data for qatar: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:03,551 - INFO - Fetching news data for bangladesh from https://api.dailynewshighlights.com/country/bangladesh/summary
+2025-04-22 14:24:04,109 - ERROR - Error fetching data for bangladesh: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:04,111 - INFO - Fetching news data for canada from https://api.dailynewshighlights.com/country/canada/summary
+2025-04-22 14:24:04,709 - ERROR - Error fetching data for canada: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:04,710 - INFO - Fetching news data for china from https://api.dailynewshighlights.com/country/china/summary
+2025-04-22 14:24:05,365 - ERROR - Error fetching data for china: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:05,366 - INFO - Fetching news data for turkey from https://api.dailynewshighlights.com/country/turkey/summary
+2025-04-22 14:24:06,082 - ERROR - Error fetching data for turkey: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:06,083 - INFO - Fetching news data for egypt from https://api.dailynewshighlights.com/country/egypt/summary
+2025-04-22 14:24:06,798 - ERROR - Error fetching data for egypt: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:06,799 - INFO - Fetching news data for nepal from https://api.dailynewshighlights.com/country/nepal/summary
+2025-04-22 14:24:07,450 - ERROR - Error fetching data for nepal: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:07,452 - INFO - Fetching news data for japan from https://api.dailynewshighlights.com/country/japan/summary
+2025-04-22 14:24:08,046 - ERROR - Error fetching data for japan: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:08,048 - INFO - Fetching news data for netherlands from https://api.dailynewshighlights.com/country/netherlands/summary
+2025-04-22 14:24:08,663 - ERROR - Error fetching data for netherlands: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:08,664 - INFO - Fetching news data for pakistan from https://api.dailynewshighlights.com/country/pakistan/summary
+2025-04-22 14:24:09,463 - ERROR - Error fetching data for pakistan: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:09,464 - INFO - Fetching news data for spain from https://api.dailynewshighlights.com/country/spain/summary
+2025-04-22 14:24:10,203 - ERROR - Error fetching data for spain: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:10,204 - INFO - Fetching news data for nigeria from https://api.dailynewshighlights.com/country/nigeria/summary
+2025-04-22 14:24:10,998 - ERROR - Error fetching data for nigeria: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:10,999 - INFO - Fetching news data for mexico from https://api.dailynewshighlights.com/country/mexico/summary
+2025-04-22 14:24:11,646 - ERROR - Error fetching data for mexico: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:11,647 - INFO - Fetching news data for malaysia from https://api.dailynewshighlights.com/country/malaysia/summary
+2025-04-22 14:24:12,329 - ERROR - Error fetching data for malaysia: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:12,330 - INFO - Fetching news data for italy from https://api.dailynewshighlights.com/country/italy/summary
+2025-04-22 14:24:12,956 - ERROR - Error fetching data for italy: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:12,957 - INFO - Fetching news data for ireland from https://api.dailynewshighlights.com/country/ireland/summary
+2025-04-22 14:24:13,589 - ERROR - Error fetching data for ireland: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:13,591 - INFO - Fetching news data for denmark from https://api.dailynewshighlights.com/country/denmark/summary
+2025-04-22 14:24:14,290 - ERROR - Error fetching data for denmark: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:14,291 - INFO - Fetching news data for bulgaria from https://api.dailynewshighlights.com/country/bulgaria/summary
+2025-04-22 14:24:14,908 - ERROR - Error fetching data for bulgaria: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:14,908 - INFO - Fetching news data for brazil from https://api.dailynewshighlights.com/country/brazil/summary
+2025-04-22 14:24:15,521 - ERROR - Error fetching data for brazil: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:15,521 - INFO - Fetching news data for austria from https://api.dailynewshighlights.com/country/austria/summary
+2025-04-22 14:24:16,142 - ERROR - Error fetching data for austria: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:16,144 - INFO - Fetching news data for argentina from https://api.dailynewshighlights.com/country/argentina/summary
+2025-04-22 14:24:16,749 - ERROR - Error fetching data for argentina: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:16,750 - INFO - Fetching news data for norway from https://api.dailynewshighlights.com/country/norway/summary
+2025-04-22 14:24:17,366 - ERROR - Error fetching data for norway: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:17,367 - INFO - Fetching news data for peru from https://api.dailynewshighlights.com/country/peru/summary
+2025-04-22 14:24:17,991 - ERROR - Error fetching data for peru: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:17,992 - INFO - Fetching news data for sweden from https://api.dailynewshighlights.com/country/sweden/summary
+2025-04-22 14:24:18,793 - ERROR - Error fetching data for sweden: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:18,794 - INFO - Fetching news data for switzerland from https://api.dailynewshighlights.com/country/switzerland/summary
+2025-04-22 14:24:19,414 - ERROR - Error fetching data for switzerland: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:19,415 - INFO - Fetching news data for taiwan from https://api.dailynewshighlights.com/country/taiwan/summary
+2025-04-22 14:24:20,043 - ERROR - Error fetching data for taiwan: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:20,043 - INFO - Fetching news data for thailand from https://api.dailynewshighlights.com/country/thailand/summary
+2025-04-22 14:24:20,641 - ERROR - Error fetching data for thailand: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:20,643 - INFO - Fetching news data for russia from https://api.dailynewshighlights.com/country/russia/summary
+2025-04-22 14:24:21,441 - ERROR - Error fetching data for russia: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:21,444 - INFO - Fetching news data for france from https://api.dailynewshighlights.com/country/france/summary
+2025-04-22 14:24:22,261 - ERROR - Error fetching data for france: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:22,261 - INFO - Fetching news data for south-africa from https://api.dailynewshighlights.com/country/south-africa/summary
+2025-04-22 14:24:23,194 - ERROR - Error fetching data for south-africa: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:23,196 - INFO - Fetching news data for kenya from https://api.dailynewshighlights.com/country/kenya/summary
+2025-04-22 14:24:23,821 - ERROR - Error fetching data for kenya: Expecting value: line 1 column 1 (char 0)
+2025-04-22 14:24:23,822 - INFO - Fetched data for 0 out of 40 countries.
+2025-04-22 14:24:23,824 - INFO - Countries with data: []
+2025-04-22 14:24:23,824 - INFO - --- News Fetching Process Finished ---
+2025-04-22 14:37:21,647 - INFO - --- Starting News Fetching Process ---
+2025-04-22 14:37:21,647 - INFO - Loaded 40 countries from countries.txt
+2025-04-22 14:37:21,652 - INFO - Fetching news data for india from https://api.dailynewshighlights.com/country/india/summary
+2025-04-22 14:37:23,703 - INFO - Successfully fetched data for india (text length: 224034).
+2025-04-22 14:37:23,706 - INFO - Fetching news data for united-arab-emirates from https://api.dailynewshighlights.com/country/united-arab-emirates/summary
+2025-04-22 14:37:24,418 - INFO - Successfully fetched data for united-arab-emirates (text length: 11703).
+2025-04-22 14:37:24,420 - INFO - Fetching news data for united-states from https://api.dailynewshighlights.com/country/united-states/summary
+2025-04-22 14:37:25,137 - INFO - Successfully fetched data for united-states (text length: 50076).
+2025-04-22 14:37:25,138 - INFO - Fetching news data for united-kingdom from https://api.dailynewshighlights.com/country/united-kingdom/summary
+2025-04-22 14:37:25,947 - INFO - Successfully fetched data for united-kingdom (text length: 38363).
+2025-04-22 14:37:25,947 - INFO - Fetching news data for australia from https://api.dailynewshighlights.com/country/australia/summary
+2025-04-22 14:37:26,684 - INFO - Successfully fetched data for australia (text length: 15055).
+2025-04-22 14:37:26,684 - INFO - Fetching news data for saudi-arabia from https://api.dailynewshighlights.com/country/saudi-arabia/summary
+2025-04-22 14:37:27,312 - INFO - Successfully fetched data for saudi-arabia (text length: 19722).
+2025-04-22 14:37:27,322 - INFO - Fetching news data for singapore from https://api.dailynewshighlights.com/country/singapore/summary
+2025-04-22 14:37:28,002 - INFO - Successfully fetched data for singapore (text length: 10171).
+2025-04-22 14:37:28,002 - INFO - Fetching news data for philippines from https://api.dailynewshighlights.com/country/philippines/summary
+2025-04-22 14:37:28,652 - INFO - Successfully fetched data for philippines (text length: 24332).
+2025-04-22 14:37:28,652 - INFO - Fetching news data for south-korea from https://api.dailynewshighlights.com/country/south-korea/summary
+2025-04-22 14:37:29,436 - INFO - Successfully fetched data for south-korea (text length: 13259).
+2025-04-22 14:37:29,438 - INFO - Fetching news data for qatar from https://api.dailynewshighlights.com/country/qatar/summary
+2025-04-22 14:37:30,089 - INFO - Successfully fetched data for qatar (text length: 3888).
+2025-04-22 14:37:30,090 - INFO - Fetching news data for bangladesh from https://api.dailynewshighlights.com/country/bangladesh/summary
+2025-04-22 14:37:30,767 - INFO - Successfully fetched data for bangladesh (text length: 18277).
+2025-04-22 14:37:30,768 - INFO - Fetching news data for canada from https://api.dailynewshighlights.com/country/canada/summary
+2025-04-22 14:37:31,485 - INFO - Successfully fetched data for canada (text length: 52138).
+2025-04-22 14:37:31,486 - INFO - Fetching news data for china from https://api.dailynewshighlights.com/country/china/summary
+2025-04-22 14:37:32,201 - INFO - Successfully fetched data for china (text length: 2825).
+2025-04-22 14:37:32,203 - INFO - Fetching news data for turkey from https://api.dailynewshighlights.com/country/turkey/summary
+2025-04-22 14:37:32,918 - INFO - Successfully fetched data for turkey (text length: 7059).
+2025-04-22 14:37:32,919 - INFO - Fetching news data for egypt from https://api.dailynewshighlights.com/country/egypt/summary
+2025-04-22 14:37:33,634 - INFO - Successfully fetched data for egypt (text length: 2112).
+2025-04-22 14:37:33,634 - INFO - Fetching news data for nepal from https://api.dailynewshighlights.com/country/nepal/summary
+2025-04-22 14:37:34,280 - INFO - Successfully fetched data for nepal (text length: 1785).
+2025-04-22 14:37:34,284 - INFO - Fetching news data for japan from https://api.dailynewshighlights.com/country/japan/summary
+2025-04-22 14:37:34,897 - INFO - Successfully fetched data for japan (text length: 2758).
+2025-04-22 14:37:34,897 - INFO - Fetching news data for netherlands from https://api.dailynewshighlights.com/country/netherlands/summary
+2025-04-22 14:37:35,579 - INFO - Successfully fetched data for netherlands (text length: 6267).
+2025-04-22 14:37:35,579 - INFO - Fetching news data for pakistan from https://api.dailynewshighlights.com/country/pakistan/summary
+2025-04-22 14:37:36,307 - INFO - Successfully fetched data for pakistan (text length: 97866).
+2025-04-22 14:37:36,307 - INFO - Fetching news data for spain from https://api.dailynewshighlights.com/country/spain/summary
+2025-04-22 14:37:36,964 - INFO - Successfully fetched data for spain (text length: 2582).
+2025-04-22 14:37:36,973 - INFO - Fetching news data for nigeria from https://api.dailynewshighlights.com/country/nigeria/summary
+2025-04-22 14:37:37,630 - INFO - Successfully fetched data for nigeria (text length: 48615).
+2025-04-22 14:37:37,631 - INFO - Fetching news data for mexico from https://api.dailynewshighlights.com/country/mexico/summary
+2025-04-22 14:37:38,349 - INFO - Successfully fetched data for mexico (text length: 1180).
+2025-04-22 14:37:38,350 - INFO - Fetching news data for malaysia from https://api.dailynewshighlights.com/country/malaysia/summary
+2025-04-22 14:37:39,061 - INFO - Successfully fetched data for malaysia (text length: 28875).
+2025-04-22 14:37:39,063 - INFO - Fetching news data for italy from https://api.dailynewshighlights.com/country/italy/summary
+2025-04-22 14:37:39,682 - WARNING - No news content found for italy in response.
+2025-04-22 14:37:39,682 - INFO - Fetching news data for ireland from https://api.dailynewshighlights.com/country/ireland/summary
+2025-04-22 14:37:40,385 - INFO - Successfully fetched data for ireland (text length: 2894).
+2025-04-22 14:37:40,395 - INFO - Fetching news data for denmark from https://api.dailynewshighlights.com/country/denmark/summary
+2025-04-22 14:37:41,211 - WARNING - No news content found for denmark in response.
+2025-04-22 14:37:41,213 - INFO - Fetching news data for bulgaria from https://api.dailynewshighlights.com/country/bulgaria/summary
+2025-04-22 14:37:41,860 - INFO - Successfully fetched data for bulgaria (text length: 309).
+2025-04-22 14:37:41,861 - INFO - Fetching news data for brazil from https://api.dailynewshighlights.com/country/brazil/summary
+2025-04-22 14:37:42,578 - WARNING - No news content found for brazil in response.
+2025-04-22 14:37:42,579 - INFO - Fetching news data for austria from https://api.dailynewshighlights.com/country/austria/summary
+2025-04-22 14:37:43,174 - INFO - Successfully fetched data for austria (text length: 1821).
+2025-04-22 14:37:43,175 - INFO - Fetching news data for argentina from https://api.dailynewshighlights.com/country/argentina/summary
+2025-04-22 14:37:43,782 - INFO - Successfully fetched data for argentina (text length: 15256).
+2025-04-22 14:37:43,784 - INFO - Fetching news data for norway from https://api.dailynewshighlights.com/country/norway/summary
+2025-04-22 14:37:44,482 - WARNING - No news content found for norway in response.
+2025-04-22 14:37:44,482 - INFO - Fetching news data for peru from https://api.dailynewshighlights.com/country/peru/summary
+2025-04-22 14:37:45,102 - WARNING - No news content found for peru in response.
+2025-04-22 14:37:45,107 - INFO - Fetching news data for sweden from https://api.dailynewshighlights.com/country/sweden/summary
+2025-04-22 14:37:45,695 - WARNING - No news content found for sweden in response.
+2025-04-22 14:37:45,696 - INFO - Fetching news data for switzerland from https://api.dailynewshighlights.com/country/switzerland/summary
+2025-04-22 14:37:46,273 - WARNING - No news content found for switzerland in response.
+2025-04-22 14:37:46,274 - INFO - Fetching news data for taiwan from https://api.dailynewshighlights.com/country/taiwan/summary
+2025-04-22 14:37:46,858 - INFO - Successfully fetched data for taiwan (text length: 2016).
+2025-04-22 14:37:46,859 - INFO - Fetching news data for thailand from https://api.dailynewshighlights.com/country/thailand/summary
+2025-04-22 14:37:47,398 - WARNING - No news content found for thailand in response.
+2025-04-22 14:37:47,399 - INFO - Fetching news data for russia from https://api.dailynewshighlights.com/country/russia/summary
+2025-04-22 14:37:47,971 - INFO - Successfully fetched data for russia (text length: 831).
+2025-04-22 14:37:47,972 - INFO - Fetching news data for france from https://api.dailynewshighlights.com/country/france/summary
+2025-04-22 14:37:48,560 - WARNING - No news content found for france in response.
+2025-04-22 14:37:48,561 - INFO - Fetching news data for south-africa from https://api.dailynewshighlights.com/country/south-africa/summary
+2025-04-22 14:37:49,123 - WARNING - No news content found for south-africa in response.
+2025-04-22 14:37:49,123 - INFO - Fetching news data for kenya from https://api.dailynewshighlights.com/country/kenya/summary
+2025-04-22 14:37:49,669 - WARNING - No news content found for kenya in response.
+2025-04-22 14:37:49,670 - INFO - Fetched data for 29 out of 40 countries.
+2025-04-22 14:37:49,672 - INFO - Countries with data: ['india', 'united-arab-emirates', 'united-states', 'united-kingdom', 'australia', 'saudi-arabia', 'singapore', 'philippines', 'south-korea', 'qatar', 'bangladesh', 'canada', 'china', 'turkey', 'egypt', 'nepal', 'japan', 'netherlands', 'pakistan', 'spain', 'nigeria', 'mexico', 'malaysia', 'ireland', 'bulgaria', 'austria', 'argentina', 'taiwan', 'russia']
+2025-04-22 14:37:49,672 - INFO - --- News Fetching Process Finished ---
+2025-04-24 18:18:17,403 - INFO - --- Starting News Automation Process ---
+2025-04-24 18:18:17,405 - INFO - Loaded 40 countries from countries.txt
+2025-04-24 18:18:17,406 - INFO - Loading summarization model: facebook/bart-large-cnn...
+2025-04-24 18:18:18,679 - INFO - Summarization model loaded successfully.
+2025-04-24 18:18:18,679 - INFO - Fetching news data for india from https://api.dailynewshighlights.com/country/india/summary
+2025-04-24 18:18:19,560 - INFO - Successfully fetched data for india (text length: 232715).
+2025-04-24 18:18:19,560 - INFO - Starting summarization...
+2025-04-24 18:18:20,409 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:20,456 - WARNING - Could not generate summary for india.
+2025-04-24 18:18:20,458 - INFO - Fetching news data for united-arab-emirates from https://api.dailynewshighlights.com/country/united-arab-emirates/summary
+2025-04-24 18:18:21,153 - INFO - Successfully fetched data for united-arab-emirates (text length: 20614).
+2025-04-24 18:18:21,157 - INFO - Starting summarization...
+2025-04-24 18:18:21,503 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:21,503 - WARNING - Could not generate summary for united-arab-emirates.
+2025-04-24 18:18:21,504 - INFO - Fetching news data for united-states from https://api.dailynewshighlights.com/country/united-states/summary
+2025-04-24 18:18:22,108 - INFO - Successfully fetched data for united-states (text length: 46977).
+2025-04-24 18:18:22,108 - INFO - Starting summarization...
+2025-04-24 18:18:22,247 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:22,247 - WARNING - Could not generate summary for united-states.
+2025-04-24 18:18:22,247 - INFO - Fetching news data for united-kingdom from https://api.dailynewshighlights.com/country/united-kingdom/summary
+2025-04-24 18:18:22,822 - INFO - Successfully fetched data for united-kingdom (text length: 49101).
+2025-04-24 18:18:22,822 - INFO - Starting summarization...
+2025-04-24 18:18:22,916 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:22,916 - WARNING - Could not generate summary for united-kingdom.
+2025-04-24 18:18:22,916 - INFO - Fetching news data for australia from https://api.dailynewshighlights.com/country/australia/summary
+2025-04-24 18:18:23,509 - INFO - Successfully fetched data for australia (text length: 15258).
+2025-04-24 18:18:23,525 - INFO - Starting summarization...
+2025-04-24 18:18:23,572 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:23,572 - WARNING - Could not generate summary for australia.
+2025-04-24 18:18:23,572 - INFO - Fetching news data for saudi-arabia from https://api.dailynewshighlights.com/country/saudi-arabia/summary
+2025-04-24 18:18:24,200 - INFO - Successfully fetched data for saudi-arabia (text length: 26922).
+2025-04-24 18:18:24,200 - INFO - Starting summarization...
+2025-04-24 18:18:24,243 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:24,243 - WARNING - Could not generate summary for saudi-arabia.
+2025-04-24 18:18:24,243 - INFO - Fetching news data for singapore from https://api.dailynewshighlights.com/country/singapore/summary
+2025-04-24 18:18:24,817 - INFO - Successfully fetched data for singapore (text length: 13132).
+2025-04-24 18:18:24,817 - INFO - Starting summarization...
+2025-04-24 18:18:24,844 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:24,845 - WARNING - Could not generate summary for singapore.
+2025-04-24 18:18:24,845 - INFO - Fetching news data for philippines from https://api.dailynewshighlights.com/country/philippines/summary
+2025-04-24 18:18:25,420 - INFO - Successfully fetched data for philippines (text length: 23791).
+2025-04-24 18:18:25,420 - INFO - Starting summarization...
+2025-04-24 18:18:25,468 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:25,468 - WARNING - Could not generate summary for philippines.
+2025-04-24 18:18:25,469 - INFO - Fetching news data for south-korea from https://api.dailynewshighlights.com/country/south-korea/summary
+2025-04-24 18:18:26,068 - INFO - Successfully fetched data for south-korea (text length: 13731).
+2025-04-24 18:18:26,069 - INFO - Starting summarization...
+2025-04-24 18:18:26,098 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:26,099 - WARNING - Could not generate summary for south-korea.
+2025-04-24 18:18:26,099 - INFO - Fetching news data for qatar from https://api.dailynewshighlights.com/country/qatar/summary
+2025-04-24 18:18:26,701 - INFO - Successfully fetched data for qatar (text length: 9309).
+2025-04-24 18:18:26,701 - INFO - Starting summarization...
+2025-04-24 18:18:26,719 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:26,720 - WARNING - Could not generate summary for qatar.
+2025-04-24 18:18:26,720 - INFO - Fetching news data for bangladesh from https://api.dailynewshighlights.com/country/bangladesh/summary
+2025-04-24 18:18:27,296 - INFO - Successfully fetched data for bangladesh (text length: 25977).
+2025-04-24 18:18:27,297 - INFO - Starting summarization...
+2025-04-24 18:18:27,334 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:27,335 - WARNING - Could not generate summary for bangladesh.
+2025-04-24 18:18:27,335 - INFO - Fetching news data for canada from https://api.dailynewshighlights.com/country/canada/summary
+2025-04-24 18:18:27,941 - INFO - Successfully fetched data for canada (text length: 91685).
+2025-04-24 18:18:27,942 - INFO - Starting summarization...
+2025-04-24 18:18:28,102 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:28,102 - WARNING - Could not generate summary for canada.
+2025-04-24 18:18:28,102 - INFO - Fetching news data for china from https://api.dailynewshighlights.com/country/china/summary
+2025-04-24 18:18:28,702 - INFO - Successfully fetched data for china (text length: 8739).
+2025-04-24 18:18:28,703 - INFO - Starting summarization...
+2025-04-24 18:18:28,721 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:28,721 - WARNING - Could not generate summary for china.
+2025-04-24 18:18:28,721 - INFO - Fetching news data for turkey from https://api.dailynewshighlights.com/country/turkey/summary
+2025-04-24 18:18:29,348 - INFO - Successfully fetched data for turkey (text length: 13793).
+2025-04-24 18:18:29,349 - INFO - Starting summarization...
+2025-04-24 18:18:29,371 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:18:29,371 - WARNING - Could not generate summary for turkey.
+2025-04-24 18:18:29,372 - INFO - Fetching news data for egypt from https://api.dailynewshighlights.com/country/egypt/summary
+2025-04-24 18:18:29,935 - INFO - Successfully fetched data for egypt (text length: 1623).
+2025-04-24 18:18:29,935 - INFO - Starting summarization...
+2025-04-24 18:18:49,260 - INFO - Summarization complete.
+2025-04-24 18:18:49,266 - INFO - Generated summary for egypt.
+2025-04-24 18:18:49,267 - INFO - Fetching news data for nepal from https://api.dailynewshighlights.com/country/nepal/summary
+2025-04-24 18:18:49,949 - INFO - Successfully fetched data for nepal (text length: 2190).
+2025-04-24 18:18:49,949 - INFO - Starting summarization...
+2025-04-24 18:19:03,850 - INFO - Summarization complete.
+2025-04-24 18:19:03,857 - INFO - Generated summary for nepal.
+2025-04-24 18:19:03,858 - INFO - Fetching news data for japan from https://api.dailynewshighlights.com/country/japan/summary
+2025-04-24 18:19:04,645 - INFO - Successfully fetched data for japan (text length: 4765).
+2025-04-24 18:19:04,646 - INFO - Starting summarization...
+2025-04-24 18:19:04,762 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:19:04,763 - WARNING - Could not generate summary for japan.
+2025-04-24 18:19:04,763 - INFO - Fetching news data for netherlands from https://api.dailynewshighlights.com/country/netherlands/summary
+2025-04-24 18:19:05,412 - INFO - Successfully fetched data for netherlands (text length: 18608).
+2025-04-24 18:19:05,413 - INFO - Starting summarization...
+2025-04-24 18:19:05,471 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:19:05,471 - WARNING - Could not generate summary for netherlands.
+2025-04-24 18:19:05,472 - INFO - Fetching news data for pakistan from https://api.dailynewshighlights.com/country/pakistan/summary
+2025-04-24 18:19:06,243 - INFO - Successfully fetched data for pakistan (text length: 100183).
+2025-04-24 18:19:06,243 - INFO - Starting summarization...
+2025-04-24 18:19:06,426 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:19:06,428 - WARNING - Could not generate summary for pakistan.
+2025-04-24 18:19:06,429 - INFO - Fetching news data for spain from https://api.dailynewshighlights.com/country/spain/summary
+2025-04-24 18:19:07,056 - INFO - Successfully fetched data for spain (text length: 3184).
+2025-04-24 18:19:07,056 - INFO - Starting summarization...
+2025-04-24 18:19:20,789 - INFO - Summarization complete.
+2025-04-24 18:19:20,790 - INFO - Generated summary for spain.
+2025-04-24 18:19:20,791 - INFO - Fetching news data for nigeria from https://api.dailynewshighlights.com/country/nigeria/summary
+2025-04-24 18:19:21,419 - INFO - Successfully fetched data for nigeria (text length: 45644).
+2025-04-24 18:19:21,420 - INFO - Starting summarization...
+2025-04-24 18:19:21,511 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:19:21,512 - WARNING - Could not generate summary for nigeria.
+2025-04-24 18:19:21,513 - INFO - Fetching news data for mexico from https://api.dailynewshighlights.com/country/mexico/summary
+2025-04-24 18:19:22,049 - INFO - Successfully fetched data for mexico (text length: 765).
+2025-04-24 18:19:22,049 - INFO - Starting summarization...
+2025-04-24 18:19:32,333 - INFO - Summarization complete.
+2025-04-24 18:19:32,333 - INFO - Generated summary for mexico.
+2025-04-24 18:19:32,334 - INFO - Fetching news data for malaysia from https://api.dailynewshighlights.com/country/malaysia/summary
+2025-04-24 18:19:33,000 - INFO - Successfully fetched data for malaysia (text length: 18233).
+2025-04-24 18:19:33,001 - INFO - Starting summarization...
+2025-04-24 18:19:33,040 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:19:33,041 - WARNING - Could not generate summary for malaysia.
+2025-04-24 18:19:33,041 - INFO - Fetching news data for italy from https://api.dailynewshighlights.com/country/italy/summary
+2025-04-24 18:19:33,926 - WARNING - No news content found for italy in response.
+2025-04-24 18:19:33,927 - WARNING - Skipping summarization for italy due to fetch error or no data.
+2025-04-24 18:19:33,927 - INFO - Fetching news data for ireland from https://api.dailynewshighlights.com/country/ireland/summary
+2025-04-24 18:19:34,509 - INFO - Successfully fetched data for ireland (text length: 4405).
+2025-04-24 18:19:34,510 - INFO - Starting summarization...
+2025-04-24 18:19:34,525 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:19:34,525 - WARNING - Could not generate summary for ireland.
+2025-04-24 18:19:34,525 - INFO - Fetching news data for denmark from https://api.dailynewshighlights.com/country/denmark/summary
+2025-04-24 18:19:35,219 - WARNING - No news content found for denmark in response.
+2025-04-24 18:19:35,220 - WARNING - Skipping summarization for denmark due to fetch error or no data.
+2025-04-24 18:19:35,221 - INFO - Fetching news data for bulgaria from https://api.dailynewshighlights.com/country/bulgaria/summary
+2025-04-24 18:19:35,769 - INFO - Successfully fetched data for bulgaria (text length: 892).
+2025-04-24 18:19:35,770 - INFO - Starting summarization...
+2025-04-24 18:19:44,691 - INFO - Summarization complete.
+2025-04-24 18:19:44,691 - INFO - Generated summary for bulgaria.
+2025-04-24 18:19:44,691 - INFO - Fetching news data for brazil from https://api.dailynewshighlights.com/country/brazil/summary
+2025-04-24 18:19:45,243 - INFO - Successfully fetched data for brazil (text length: 430).
+2025-04-24 18:19:45,243 - INFO - Starting summarization...
+2025-04-24 18:19:53,770 - INFO - Summarization complete.
+2025-04-24 18:19:53,770 - INFO - Generated summary for brazil.
+2025-04-24 18:19:53,771 - INFO - Fetching news data for austria from https://api.dailynewshighlights.com/country/austria/summary
+2025-04-24 18:19:54,352 - INFO - Successfully fetched data for austria (text length: 1469).
+2025-04-24 18:19:54,353 - INFO - Starting summarization...
+2025-04-24 18:20:04,423 - INFO - Summarization complete.
+2025-04-24 18:20:04,423 - INFO - Generated summary for austria.
+2025-04-24 18:20:04,423 - INFO - Fetching news data for argentina from https://api.dailynewshighlights.com/country/argentina/summary
+2025-04-24 18:20:05,114 - INFO - Successfully fetched data for argentina (text length: 16583).
+2025-04-24 18:20:05,114 - INFO - Starting summarization...
+2025-04-24 18:20:05,212 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:20:05,213 - WARNING - Could not generate summary for argentina.
+2025-04-24 18:20:05,213 - INFO - Fetching news data for norway from https://api.dailynewshighlights.com/country/norway/summary
+2025-04-24 18:20:05,751 - WARNING - No news content found for norway in response.
+2025-04-24 18:20:05,752 - WARNING - Skipping summarization for norway due to fetch error or no data.
+2025-04-24 18:20:05,752 - INFO - Fetching news data for peru from https://api.dailynewshighlights.com/country/peru/summary
+2025-04-24 18:20:06,334 - WARNING - No news content found for peru in response.
+2025-04-24 18:20:06,335 - WARNING - Skipping summarization for peru due to fetch error or no data.
+2025-04-24 18:20:06,335 - INFO - Fetching news data for sweden from https://api.dailynewshighlights.com/country/sweden/summary
+2025-04-24 18:20:06,889 - WARNING - No news content found for sweden in response.
+2025-04-24 18:20:06,890 - WARNING - Skipping summarization for sweden due to fetch error or no data.
+2025-04-24 18:20:06,891 - INFO - Fetching news data for switzerland from https://api.dailynewshighlights.com/country/switzerland/summary
+2025-04-24 18:20:07,436 - WARNING - No news content found for switzerland in response.
+2025-04-24 18:20:07,437 - WARNING - Skipping summarization for switzerland due to fetch error or no data.
+2025-04-24 18:20:07,437 - INFO - Fetching news data for taiwan from https://api.dailynewshighlights.com/country/taiwan/summary
+2025-04-24 18:20:08,155 - INFO - Successfully fetched data for taiwan (text length: 4698).
+2025-04-24 18:20:08,156 - INFO - Starting summarization...
+2025-04-24 18:20:08,172 - ERROR - Error during summarization: index out of range in self
+2025-04-24 18:20:08,173 - WARNING - Could not generate summary for taiwan.
+2025-04-24 18:20:08,173 - INFO - Fetching news data for thailand from https://api.dailynewshighlights.com/country/thailand/summary
+2025-04-24 18:20:08,880 - WARNING - No news content found for thailand in response.
+2025-04-24 18:20:08,880 - WARNING - Skipping summarization for thailand due to fetch error or no data.
+2025-04-24 18:20:08,881 - INFO - Fetching news data for russia from https://api.dailynewshighlights.com/country/russia/summary
+2025-04-24 18:20:09,504 - INFO - Successfully fetched data for russia (text length: 392).
+2025-04-24 18:20:09,506 - INFO - Starting summarization...
+2025-04-24 18:20:19,377 - INFO - Summarization complete.
+2025-04-24 18:20:19,377 - INFO - Generated summary for russia.
+2025-04-24 18:20:19,377 - INFO - Fetching news data for france from https://api.dailynewshighlights.com/country/france/summary
+2025-04-24 18:20:19,923 - WARNING - No news content found for france in response.
+2025-04-24 18:20:19,923 - WARNING - Skipping summarization for france due to fetch error or no data.
+2025-04-24 18:20:19,923 - INFO - Fetching news data for south-africa from https://api.dailynewshighlights.com/country/south-africa/summary
+2025-04-24 18:20:20,488 - WARNING - No news content found for south-africa in response.
+2025-04-24 18:20:20,488 - WARNING - Skipping summarization for south-africa due to fetch error or no data.
+2025-04-24 18:20:20,488 - INFO - Fetching news data for kenya from https://api.dailynewshighlights.com/country/kenya/summary
+2025-04-24 18:20:21,080 - WARNING - No news content found for kenya in response.
+2025-04-24 18:20:21,082 - WARNING - Skipping summarization for kenya due to fetch error or no data.
+2025-04-24 18:20:21,082 - INFO - 
+--- Generated Summaries (8/40) ---
+2025-04-24 18:20:21,083 - INFO - 
+[EGYPT]
+Real Madrid could be without defender David Alaba and midfielder Eduardo Camavinga for the Copa del Rey final. Both were injured in Wednesday&#039;s 1-0 LaLiga victory over Getafe. A first-half goal from Turkish midfielder Arda Guler secured the win.
+
+2025-04-24 18:20:21,084 - INFO - 
+[NEPAL]
+The Nepal Stock Exchange (NEPSE) index inched up by 2.08 points on Wednesday. Despite the slight rise in the index, the trading session saw more declines than advances. NMB Bank recently appointed Govind Ghimire as new chief executive officer.
+
+2025-04-24 18:20:21,085 - INFO - 
+[SPAIN]
+Mexican government to issue fines for broadcasting foreign political propaganda. Judge sets rules for Trump’s deportations: 21 days’ notice to migrants in their native language. The top-paid CEOs in the United States in 2024: The executives earning more than $50 million.
+
+2025-04-24 18:20:21,089 - INFO - 
+[MEXICO]
+The high tourism season in Los Cabos is drawing to a close following the end of whale watching season on April 15. This year, the Naval Ministry (Semar) forecasts that the country will see a total of 18 hurricanes throughout the 2025 summer hurricane season.
+
+2025-04-24 18:20:21,090 - INFO - 
+[BULGARIA]
+Bulgaria’s Foreign Ministry warns of general strike in Belgium on April 29. 74 intentional homicides in Bulgaria in 2023, two fewer than in 2022 and fewer than the 109 recorded in 2013.
+
+2025-04-24 18:20:21,091 - INFO - 
+[BRAZIL]
+Stefanini Group announces investment in Escala 24X7, an AWS Premier Partner in Latin America. Stefanini Group, a global technology solutions provider, recently announced the acquisition of a 60% stake.
+
+2025-04-24 18:20:21,092 - INFO - 
+[AUSTRIA]
+Novak Djokovic is desperate for more tennis glory. Chris Eubank Jr vows to prove that he is superior to Conor Benn. Carlo Ancelotti is relaxed about the pressure that comes with being Real Madrid manager.
+
+2025-04-24 18:20:21,093 - INFO - 
+[RUSSIA]
+U.S. Secretary of State Marco Rubio withdrew from the talks. The announcement came after Ukraine rejected Washington’s proposal to recognize Russia's annexation of Crimea. The meeting between the foreign ministers of Britain, France, Germany and Ukraine in London was abruptly downgraded.
+
+2025-04-24 18:20:21,094 - INFO - --- News Automation Process Finished in 123.69 seconds ---
+2025-04-24 19:11:47,891 - INFO - --- Starting News Automation Process ---
+2025-04-24 19:11:47,894 - INFO - Loaded 40 countries from countries.txt
+2025-04-24 19:11:47,895 - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn...
+2025-04-24 19:11:50,213 - INFO - Summarization model and tokenizer loaded successfully.
+2025-04-24 19:11:50,213 - INFO - 
+--- Processing INDIA ---
+2025-04-24 19:11:50,213 - INFO - Fetching news data for india from https://api.dailynewshighlights.com/country/india/summary
+2025-04-24 19:11:51,007 - INFO - Successfully fetched data for india (text length: 223512).
+2025-04-24 19:21:01,887 - INFO - --- Starting News Automation Process ---
+2025-04-24 19:21:01,889 - INFO - Loaded 40 countries from countries.txt
+2025-04-24 19:21:01,889 - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn...
+2025-04-24 19:21:04,436 - INFO - Summarization model and tokenizer loaded successfully.
+2025-04-24 19:21:04,436 - INFO - 
+--- Processing INDIA ---
+2025-04-24 19:21:04,436 - INFO - Fetching news data for india from https://api.dailynewshighlights.com/country/india/summary
+2025-04-24 19:21:05,286 - INFO - Successfully fetched data for india (text length: 222688).
+2025-04-24 19:24:14,760 - INFO - --- Starting News Automation Process ---
+2025-04-24 19:24:14,761 - INFO - Loaded 40 countries from countries.txt
+2025-04-24 19:24:14,761 - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn...
+2025-04-24 19:24:16,988 - INFO - Summarization model and tokenizer loaded successfully.
+2025-04-24 19:24:16,988 - INFO - 
+--- Processing INDIA ---
+2025-04-24 19:24:16,989 - INFO - Fetching news data for india from https://api.dailynewshighlights.com/country/india/summary
+2025-04-24 19:24:17,792 - INFO - Successfully fetched data for india (text length: 222248).
+2025-04-24 19:39:17,662 - INFO - --- Starting News Automation Process ---
+2025-04-24 19:39:17,665 - INFO - Loaded 40 countries from countries.txt
+2025-04-24 19:39:17,665 - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn...
+2025-04-24 19:39:21,027 - INFO - Summarization model and tokenizer loaded successfully.
+2025-04-24 19:39:21,027 - INFO - 
+--- Processing INDIA ---
+2025-04-24 19:39:21,027 - INFO - Fetching news data for india from https://api.dailynewshighlights.com/country/india/summary
+2025-04-24 19:39:23,888 - INFO - Successfully fetched data for india (text length: 218244).
+2025-04-24 19:39:24,014 - INFO - Summarizing 15 chunks...
+2025-04-24 19:39:46,103 - INFO -   Summarized chunk 1/15
+2025-04-24 19:39:55,862 - INFO -   Summarized chunk 2/15
+2025-04-24 19:40:11,011 - INFO -   Summarized chunk 3/15
+2025-04-24 19:40:21,397 - INFO -   Summarized chunk 4/15
+2025-04-24 19:40:38,133 - INFO -   Summarized chunk 5/15
+2025-04-24 19:40:44,985 - INFO -   Summarized chunk 6/15
+2025-04-24 19:40:58,657 - INFO -   Summarized chunk 7/15
+2025-04-24 19:41:06,732 - INFO -   Summarized chunk 8/15
+2025-04-24 19:41:16,721 - INFO -   Summarized chunk 9/15
+2025-04-24 19:41:25,572 - INFO -   Summarized chunk 10/15
+2025-04-24 19:41:36,204 - INFO -   Summarized chunk 11/15
+2025-04-24 19:41:42,993 - INFO -   Summarized chunk 12/15
+2025-04-24 19:41:53,537 - INFO -   Summarized chunk 13/15
+2025-04-24 19:41:58,995 - INFO -   Summarized chunk 14/15
+2025-04-24 19:42:10,221 - INFO -   Summarized chunk 15/15
+2025-04-24 19:42:10,228 - INFO - Generating final summary from combined intermediate summaries...
+2025-04-24 19:42:46,923 - INFO - Generated final summary (word count: 131).
+2025-04-24 19:42:46,932 - WARNING - Final summary word count (131) is outside target range (250, 350).
+2025-04-24 19:42:46,932 - INFO - Generated structured summary for india.
+2025-04-24 19:42:46,947 - INFO - Attempting to update summary for india on 2025-04-24...
+2025-04-24 19:42:47,804 - ERROR - Error updating summary for india: 419 Client Error: <none> for url: https://api.dailynewshighlights.com/news-summary-by-date/
+2025-04-24 19:42:47,809 - ERROR - Response content: <!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Page Expired</title>
+<style>html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe\ UI,Roboto,Helvetica\ Neue,Arial,Noto\ Sans,sans-serif,Apple\ Color\ Emoji,Segoe\ UI\ Emoji,Segoe\ UI\ Symbol,Noto\ Color\ Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}code{font-family:Menlo,Monaco,Consolas,Liberation\ Mono,Courier\ New,monospace}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-gray-400{--border-opacity:1;border-color:#cbd5e0;border-color:rgba(203,213,224,var(--border-opacity))}.border-t{border-top-width:1px}.border-r{border-right-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-xl{max-width:36rem}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1) , 0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.uppercase{text-transform:uppercase}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.tracking-wider{letter-spacing:.05em}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@-webkit-keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}}</style>
+<style>body{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}</style>
+</head>
+<body class=antialiased>
+<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+<div class="max-w-xl mx-auto sm:px-6 lg:px-8">
+<div class="flex items-center pt-8 sm:justify-start sm:pt-0">
+<div class="px-4 text-lg text-gray-500 border-r border-gray-400 tracking-wider">
+419 </div>
+<div class="ml-4 text-lg text-gray-500 uppercase tracking-wider">
+Page Expired </div>
+</div>
+</div>
+</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'93563292ecad9f5a',t:'MTc0NTUwMzk2Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+2025-04-24 19:42:47,828 - ERROR - Failed to update website for india.
+2025-04-24 19:42:48,829 - INFO - 
+--- Processing UNITED-ARAB-EMIRATES ---
+2025-04-24 19:42:48,832 - INFO - Fetching news data for united-arab-emirates from https://api.dailynewshighlights.com/country/united-arab-emirates/summary
+2025-04-24 19:42:49,833 - INFO - Successfully fetched data for united-arab-emirates (text length: 20509).
+2025-04-24 19:42:50,107 - INFO - Summarizing 9 chunks...
+2025-04-24 19:42:59,860 - INFO -   Summarized chunk 1/9
+2025-04-24 19:43:12,522 - INFO -   Summarized chunk 2/9
+2025-04-24 19:43:21,956 - INFO -   Summarized chunk 3/9
+2025-04-24 19:43:27,789 - INFO -   Summarized chunk 4/9
+2025-04-24 19:43:39,245 - INFO -   Summarized chunk 5/9
+2025-04-24 19:43:45,871 - INFO -   Summarized chunk 6/9
+2025-04-24 19:43:54,990 - INFO -   Summarized chunk 7/9
+2025-04-24 19:43:55,038 - ERROR - Error summarizing chunk 8: index out of range in self
+2025-04-24 19:44:09,119 - INFO -   Summarized chunk 9/9
+2025-04-24 19:44:09,121 - INFO - Generating final summary from combined intermediate summaries...
+2025-04-24 19:44:44,927 - INFO - Generated final summary (word count: 136).
+2025-04-24 19:44:44,928 - WARNING - Final summary word count (136) is outside target range (250, 350).
+2025-04-24 19:44:44,930 - INFO - Generated structured summary for united-arab-emirates.
+2025-04-24 19:44:44,933 - INFO - Attempting to update summary for united-arab-emirates on 2025-04-24...
+2025-04-24 19:44:45,960 - ERROR - Error updating summary for united-arab-emirates: 419 Client Error: <none> for url: https://api.dailynewshighlights.com/news-summary-by-date/
+2025-04-24 19:44:45,962 - ERROR - Response content: <!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Page Expired</title>
+<style>html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe\ UI,Roboto,Helvetica\ Neue,Arial,Noto\ Sans,sans-serif,Apple\ Color\ Emoji,Segoe\ UI\ Emoji,Segoe\ UI\ Symbol,Noto\ Color\ Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}code{font-family:Menlo,Monaco,Consolas,Liberation\ Mono,Courier\ New,monospace}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-gray-400{--border-opacity:1;border-color:#cbd5e0;border-color:rgba(203,213,224,var(--border-opacity))}.border-t{border-top-width:1px}.border-r{border-right-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-xl{max-width:36rem}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1) , 0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.uppercase{text-transform:uppercase}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.tracking-wider{letter-spacing:.05em}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@-webkit-keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}}</style>
+<style>body{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}</style>
+</head>
+<body class=antialiased>
+<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+<div class="max-w-xl mx-auto sm:px-6 lg:px-8">
+<div class="flex items-center pt-8 sm:justify-start sm:pt-0">
+<div class="px-4 text-lg text-gray-500 border-r border-gray-400 tracking-wider">
+419 </div>
+<div class="ml-4 text-lg text-gray-500 uppercase tracking-wider">
+Page Expired </div>
+</div>
+</div>
+</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'93563574dd820bd0',t:'MTc0NTUwNDA4NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+2025-04-24 19:44:45,975 - ERROR - Failed to update website for united-arab-emirates.
+2025-04-24 19:44:46,978 - INFO - 
+--- Processing UNITED-STATES ---
+2025-04-24 19:44:46,979 - INFO - Fetching news data for united-states from https://api.dailynewshighlights.com/country/united-states/summary
+2025-04-24 19:44:47,721 - INFO - Successfully fetched data for united-states (text length: 38659).
+2025-04-24 19:44:47,858 - INFO - Summarizing 13 chunks...
+2025-04-24 19:45:00,205 - INFO -   Summarized chunk 1/13
+2025-04-24 19:45:05,557 - INFO -   Summarized chunk 2/13
+2025-04-24 19:45:16,647 - INFO -   Summarized chunk 3/13
+2025-04-24 19:45:22,354 - INFO -   Summarized chunk 4/13
+2025-04-24 19:45:34,750 - INFO -   Summarized chunk 5/13
+2025-04-24 19:45:42,948 - INFO -   Summarized chunk 6/13
+2025-04-24 19:45:57,149 - INFO -   Summarized chunk 7/13
+2025-04-24 19:46:04,642 - INFO -   Summarized chunk 8/13
+2025-04-24 19:46:13,858 - INFO -   Summarized chunk 9/13
+2025-04-24 19:46:22,333 - INFO -   Summarized chunk 10/13
+2025-04-24 19:46:36,774 - INFO -   Summarized chunk 11/13
+2025-04-24 19:46:49,245 - INFO -   Summarized chunk 12/13
+2025-04-24 19:47:00,838 - INFO -   Summarized chunk 13/13
+2025-04-24 19:47:00,839 - INFO - Generating final summary from combined intermediate summaries...
+2025-04-24 19:47:40,694 - INFO - Generated final summary (word count: 167).
+2025-04-24 19:47:40,694 - WARNING - Final summary word count (167) is outside target range (250, 350).
+2025-04-24 19:47:40,698 - INFO - Generated structured summary for united-states.
+2025-04-24 19:47:40,701 - INFO - Attempting to update summary for united-states on 2025-04-24...
+2025-04-24 19:47:41,576 - ERROR - Error updating summary for united-states: 419 Client Error: <none> for url: https://api.dailynewshighlights.com/news-summary-by-date/
+2025-04-24 19:47:41,577 - ERROR - Response content: <!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Page Expired</title>
+<style>html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe\ UI,Roboto,Helvetica\ Neue,Arial,Noto\ Sans,sans-serif,Apple\ Color\ Emoji,Segoe\ UI\ Emoji,Segoe\ UI\ Symbol,Noto\ Color\ Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}code{font-family:Menlo,Monaco,Consolas,Liberation\ Mono,Courier\ New,monospace}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-gray-400{--border-opacity:1;border-color:#cbd5e0;border-color:rgba(203,213,224,var(--border-opacity))}.border-t{border-top-width:1px}.border-r{border-right-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-xl{max-width:36rem}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1) , 0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.uppercase{text-transform:uppercase}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.tracking-wider{letter-spacing:.05em}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@-webkit-keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}}</style>
+<style>body{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}</style>
+</head>
+<body class=antialiased>
+<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+<div class="max-w-xl mx-auto sm:px-6 lg:px-8">
+<div class="flex items-center pt-8 sm:justify-start sm:pt-0">
+<div class="px-4 text-lg text-gray-500 border-r border-gray-400 tracking-wider">
+419 </div>
+<div class="ml-4 text-lg text-gray-500 uppercase tracking-wider">
+Page Expired </div>
+</div>
+</div>
+</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'935639be9db2f794',t:'MTc0NTUwNDI2MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+2025-04-24 19:47:41,584 - ERROR - Failed to update website for united-states.
+2025-04-24 19:47:42,586 - INFO - 
+--- Processing UNITED-KINGDOM ---
+2025-04-24 19:47:42,588 - INFO - Fetching news data for united-kingdom from https://api.dailynewshighlights.com/country/united-kingdom/summary
+2025-04-24 19:47:43,531 - INFO - Successfully fetched data for united-kingdom (text length: 42355).
+2025-04-24 19:47:43,676 - INFO - Summarizing 15 chunks...
+2025-04-24 19:47:54,871 - INFO -   Summarized chunk 1/15
+2025-04-24 19:48:01,577 - INFO -   Summarized chunk 2/15
+2025-04-24 19:48:12,483 - INFO -   Summarized chunk 3/15
+2025-04-24 19:48:18,491 - INFO -   Summarized chunk 4/15
+2025-04-24 19:48:30,918 - INFO -   Summarized chunk 5/15
+2025-04-24 19:48:38,250 - INFO -   Summarized chunk 6/15
+2025-04-24 19:48:49,633 - INFO -   Summarized chunk 7/15
+2025-04-24 19:48:55,286 - INFO -   Summarized chunk 8/15
+2025-04-24 19:49:05,723 - INFO -   Summarized chunk 9/15
+2025-04-24 19:49:12,667 - INFO -   Summarized chunk 10/15
+2025-04-24 19:49:21,842 - INFO -   Summarized chunk 11/15
+2025-04-24 19:49:30,883 - INFO -   Summarized chunk 12/15
+2025-04-24 19:49:45,121 - INFO -   Summarized chunk 13/15
+2025-04-24 19:49:55,551 - INFO -   Summarized chunk 14/15
+2025-04-24 19:50:09,452 - INFO -   Summarized chunk 15/15
+2025-04-24 19:50:09,463 - INFO - Generating final summary from combined intermediate summaries...
+2025-04-24 19:50:47,440 - INFO - Generated final summary (word count: 156).
+2025-04-24 19:50:47,441 - WARNING - Final summary word count (156) is outside target range (250, 350).
+2025-04-24 19:50:47,447 - INFO - Generated structured summary for united-kingdom.
+2025-04-24 19:50:47,451 - INFO - Attempting to update summary for united-kingdom on 2025-04-24...
+2025-04-24 19:50:48,345 - ERROR - Error updating summary for united-kingdom: 419 Client Error: <none> for url: https://api.dailynewshighlights.com/news-summary-by-date/
+2025-04-24 19:50:48,345 - ERROR - Response content: <!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Page Expired</title>
+<style>html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe\ UI,Roboto,Helvetica\ Neue,Arial,Noto\ Sans,sans-serif,Apple\ Color\ Emoji,Segoe\ UI\ Emoji,Segoe\ UI\ Symbol,Noto\ Color\ Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}code{font-family:Menlo,Monaco,Consolas,Liberation\ Mono,Courier\ New,monospace}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-gray-400{--border-opacity:1;border-color:#cbd5e0;border-color:rgba(203,213,224,var(--border-opacity))}.border-t{border-top-width:1px}.border-r{border-right-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-xl{max-width:36rem}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1) , 0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.uppercase{text-transform:uppercase}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.tracking-wider{letter-spacing:.05em}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@-webkit-keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}}</style>
+<style>body{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}</style>
+</head>
+<body class=antialiased>
+<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+<div class="max-w-xl mx-auto sm:px-6 lg:px-8">
+<div class="flex items-center pt-8 sm:justify-start sm:pt-0">
+<div class="px-4 text-lg text-gray-500 border-r border-gray-400 tracking-wider">
+419 </div>
+<div class="ml-4 text-lg text-gray-500 uppercase tracking-wider">
+Page Expired </div>
+</div>
+</div>
+</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'93563e4e6ebe9f94',t:'MTc0NTUwNDQ0Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+2025-04-24 19:50:48,360 - ERROR - Failed to update website for united-kingdom.
+2025-04-24 19:50:49,374 - INFO - 
+--- Processing AUSTRALIA ---
+2025-04-24 19:50:49,378 - INFO - Fetching news data for australia from https://api.dailynewshighlights.com/country/australia/summary
+2025-04-24 19:50:50,110 - INFO - Successfully fetched data for australia (text length: 15178).
+2025-04-24 19:50:50,302 - INFO - Summarizing 9 chunks...
+2025-04-24 19:51:02,680 - INFO -   Summarized chunk 1/9
+2025-04-24 19:51:08,768 - INFO -   Summarized chunk 2/9
+2025-04-24 19:51:19,293 - INFO -   Summarized chunk 3/9
+2025-04-24 19:51:25,862 - INFO -   Summarized chunk 4/9
+2025-04-24 19:51:37,154 - INFO -   Summarized chunk 5/9
+2025-04-24 19:51:46,330 - INFO -   Summarized chunk 6/9
+2025-04-24 19:51:56,350 - INFO -   Summarized chunk 7/9
+2025-04-24 19:52:02,904 - INFO -   Summarized chunk 8/9
+2025-04-24 19:52:09,088 - INFO -   Summarized chunk 9/9
+2025-04-24 19:52:09,100 - INFO - Generating final summary from combined intermediate summaries...
+2025-04-24 19:52:43,550 - INFO - Generated final summary (word count: 148).
+2025-04-24 19:52:43,560 - WARNING - Final summary word count (148) is outside target range (250, 350).
+2025-04-24 19:52:43,565 - INFO - Generated structured summary for australia.
+2025-04-24 19:52:43,570 - INFO - Attempting to update summary for australia on 2025-04-24...
+2025-04-24 19:52:45,521 - ERROR - Error updating summary for australia: 419 Client Error: <none> for url: https://api.dailynewshighlights.com/news-summary-by-date/
+2025-04-24 19:52:45,522 - ERROR - Response content: <!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Page Expired</title>
+<style>html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe\ UI,Roboto,Helvetica\ Neue,Arial,Noto\ Sans,sans-serif,Apple\ Color\ Emoji,Segoe\ UI\ Emoji,Segoe\ UI\ Symbol,Noto\ Color\ Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}code{font-family:Menlo,Monaco,Consolas,Liberation\ Mono,Courier\ New,monospace}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-gray-400{--border-opacity:1;border-color:#cbd5e0;border-color:rgba(203,213,224,var(--border-opacity))}.border-t{border-top-width:1px}.border-r{border-right-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-xl{max-width:36rem}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1) , 0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.uppercase{text-transform:uppercase}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.tracking-wider{letter-spacing:.05em}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@-webkit-keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}}</style>
+<style>body{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}</style>
+</head>
+<body class=antialiased>
+<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+<div class="max-w-xl mx-auto sm:px-6 lg:px-8">
+<div class="flex items-center pt-8 sm:justify-start sm:pt-0">
+<div class="px-4 text-lg text-gray-500 border-r border-gray-400 tracking-wider">
+419 </div>
+<div class="ml-4 text-lg text-gray-500 uppercase tracking-wider">
+Page Expired </div>
+</div>
+</div>
+</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'93564129fd99289d',t:'MTc0NTUwNDU2NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+2025-04-24 19:52:45,541 - ERROR - Failed to update website for australia.
+2025-04-24 19:52:46,553 - INFO - 
+--- Processing SAUDI-ARABIA ---
+2025-04-24 19:52:46,558 - INFO - Fetching news data for saudi-arabia from https://api.dailynewshighlights.com/country/saudi-arabia/summary
+2025-04-24 19:52:47,218 - INFO - Successfully fetched data for saudi-arabia (text length: 23505).
+2025-04-24 19:52:47,449 - INFO - Summarizing 10 chunks...
+2025-04-24 19:52:57,634 - INFO -   Summarized chunk 1/10
+2025-04-24 19:53:12,962 - INFO -   Summarized chunk 2/10
+2025-04-24 19:53:21,685 - INFO -   Summarized chunk 3/10
+2025-04-24 19:53:30,141 - INFO -   Summarized chunk 4/10
+2025-04-24 19:53:43,094 - INFO -   Summarized chunk 5/10
+2025-04-24 19:53:50,187 - INFO -   Summarized chunk 6/10
+2025-04-24 19:54:02,156 - INFO -   Summarized chunk 7/10
+2025-04-24 19:54:16,001 - INFO -   Summarized chunk 8/10
+2025-04-24 19:54:30,594 - INFO -   Summarized chunk 9/10
+2025-04-24 19:54:39,369 - INFO -   Summarized chunk 10/10
+2025-04-24 19:54:39,370 - INFO - Generating final summary from combined intermediate summaries...
+2025-04-24 19:55:15,254 - INFO - Generated final summary (word count: 135).
+2025-04-24 19:55:15,256 - WARNING - Final summary word count (135) is outside target range (250, 350).
+2025-04-24 19:55:15,266 - INFO - Generated structured summary for saudi-arabia.
+2025-04-24 19:55:15,270 - INFO - Attempting to update summary for saudi-arabia on 2025-04-24...
+2025-04-24 19:55:16,078 - ERROR - Error updating summary for saudi-arabia: 419 Client Error: <none> for url: https://api.dailynewshighlights.com/news-summary-by-date/
+2025-04-24 19:55:16,079 - ERROR - Response content: <!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Page Expired</title>
+<style>html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe\ UI,Roboto,Helvetica\ Neue,Arial,Noto\ Sans,sans-serif,Apple\ Color\ Emoji,Segoe\ UI\ Emoji,Segoe\ UI\ Symbol,Noto\ Color\ Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}code{font-family:Menlo,Monaco,Consolas,Liberation\ Mono,Courier\ New,monospace}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-gray-400{--border-opacity:1;border-color:#cbd5e0;border-color:rgba(203,213,224,var(--border-opacity))}.border-t{border-top-width:1px}.border-r{border-right-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-xl{max-width:36rem}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1) , 0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.uppercase{text-transform:uppercase}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.tracking-wider{letter-spacing:.05em}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@-webkit-keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}}</style>
+<style>body{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}</style>
+</head>
+<body class=antialiased>
+<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+<div class="max-w-xl mx-auto sm:px-6 lg:px-8">
+<div class="flex items-center pt-8 sm:justify-start sm:pt-0">
+<div class="px-4 text-lg text-gray-500 border-r border-gray-400 tracking-wider">
+419 </div>
+<div class="ml-4 text-lg text-gray-500 uppercase tracking-wider">
+Page Expired </div>
+</div>
+</div>
+</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'935644d788910c3b',t:'MTc0NTUwNDcxNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+2025-04-24 19:55:16,090 - ERROR - Failed to update website for saudi-arabia.
+2025-04-24 19:55:17,091 - INFO - 
+--- Processing SINGAPORE ---
+2025-04-24 19:55:17,092 - INFO - Fetching news data for singapore from https://api.dailynewshighlights.com/country/singapore/summary
+2025-04-24 19:55:17,902 - INFO - Successfully fetched data for singapore (text length: 12714).
+2025-04-24 19:55:18,020 - INFO - Summarizing 6 chunks...
+2025-04-24 19:55:32,491 - INFO -   Summarized chunk 1/6
+2025-04-24 19:55:47,521 - INFO -   Summarized chunk 2/6
+2025-04-24 19:56:03,641 - INFO -   Summarized chunk 3/6
+2025-04-25 18:07:11,778 - INFO - --- Starting News Automation Process for India ---
+2025-04-25 18:07:11,780 - INFO - Loading summarization model and tokenizer: facebook/bart-large-cnn...
+2025-04-25 18:07:15,093 - INFO - Summarization model and tokenizer loaded successfully.
+2025-04-25 18:07:15,093 - INFO - 
+--- Processing INDIA ---
+2025-04-25 18:07:15,094 - INFO - Fetching news data for india from https://api.dailynewshighlights.com/country/india/summary
+2025-04-25 18:07:16,071 - INFO - Successfully fetched data for india (text length: 235521).
+2025-04-25 18:07:16,165 - INFO - Summarizing 15 chunks...
+2025-04-25 18:07:33,795 - INFO -   Summarized chunk 1/15
+2025-04-25 18:08:01,739 - INFO -   Summarized chunk 2/15
+2025-04-25 18:08:16,328 - INFO -   Summarized chunk 3/15
+2025-04-25 18:08:22,226 - INFO -   Summarized chunk 4/15
+2025-04-25 18:08:33,625 - INFO -   Summarized chunk 5/15
+2025-04-25 18:08:40,199 - INFO -   Summarized chunk 6/15
+2025-04-25 18:08:51,414 - INFO -   Summarized chunk 7/15
+2025-04-25 18:08:58,237 - INFO -   Summarized chunk 8/15
+2025-04-25 18:09:14,240 - INFO -   Summarized chunk 9/15
+2025-04-25 18:09:21,104 - INFO -   Summarized chunk 10/15
+2025-04-25 18:09:31,265 - INFO -   Summarized chunk 11/15
+2025-04-25 18:09:38,383 - INFO -   Summarized chunk 12/15
+2025-04-25 18:09:51,421 - INFO -   Summarized chunk 13/15
+2025-04-25 18:09:57,239 - INFO -   Summarized chunk 14/15
+2025-04-25 18:10:04,384 - INFO -   Summarized chunk 15/15
+2025-04-25 18:10:04,385 - INFO - Generating final summary from combined intermediate summaries...
+2025-04-25 18:10:39,696 - INFO - Generated final summary (word count: 132).
+2025-04-25 18:10:39,707 - WARNING - Final summary word count (132) is outside target range (250, 350).
+2025-04-25 18:10:39,712 - INFO - Generated summary for india.
+2025-04-25 18:10:39,723 - INFO - Summary saved to 'india_summary.txt'
+2025-04-25 18:10:39,723 - INFO - --- News Automation Process Finished in 207.94 seconds ---
