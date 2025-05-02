@@ -17,34 +17,17 @@ except nltk.downloader.DownloadError:
 # --- Configuration ---
 load_dotenv()
 FETCH_API_URL_TEMPLATE = "https://api.dailynewshighlights.com/country/{}/summary"
-COUNTRIES_FILE = "countries.txt"
 SUMMARIZER_MODEL = "facebook/bart-large-cnn"
 MAX_CHARS = 25000
-TARGET_SUMMARY_WORDS = (250, 350)
-CHUNK_TARGET_TOKENS = 800
-CHUNK_OVERLAP_TOKENS = 150
-FINAL_SUMMARY_MIN_TOKENS = 180
-FINAL_SUMMARY_MAX_TOKENS = 500
-OUTPUT_FILE = "india_summary.txt"
+FINAL_SUMMARY_MIN_TOKENS = 400
+FINAL_SUMMARY_MAX_TOKENS = 1000
 
 # --- Logging Setup ---
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s',
-                    handlers=[logging.FileHandler("automation.log", encoding='utf-8'),
-                              logging.StreamHandler()])
+                    handlers=[logging.StreamHandler()])
 
 # --- Functions ---
-def get_countries(filename):
-    """Reads country list from a file."""
-    try:
-        with open(filename, 'r', encoding='utf-8') as f:
-            countries = [line.strip() for line in f if line.strip()]
-        logging.info(f"Loaded {len(countries)} countries from {filename}")
-        return countries
-    except FileNotFoundError:
-        logging.error(f"Error: Country file '{filename}' not found.")
-        return []
-
 def fetch_news_data(country):
     """Fetches news data for a single country."""
     url = FETCH_API_URL_TEMPLATE.format(country)
@@ -65,7 +48,7 @@ def fetch_news_data(country):
         logging.error(f"An unexpected error occurred fetching data for {country}: {e}")
         return None
 
-def chunk_text_by_sentences(text, tokenizer, max_tokens=CHUNK_TARGET_TOKENS, overlap=CHUNK_OVERLAP_TOKENS):
+def chunk_text_by_sentences(text, tokenizer, max_tokens=800, overlap=150):
     """Chunks text into segments based on sentences, trying to stay within token limits."""
     sentences = sent_tokenize(text)
     chunks = []
@@ -100,7 +83,7 @@ def chunk_text_by_sentences(text, tokenizer, max_tokens=CHUNK_TARGET_TOKENS, ove
 
     return chunks
 
-def summarize_long_text(text_to_summarize, summarizer_pipeline, tokenizer, target_words=TARGET_SUMMARY_WORDS):
+def summarize_long_text(text_to_summarize, summarizer_pipeline, tokenizer, target_words=(250, 350)):
     """Handles long text summarization using chunking and a final pass."""
     if not text_to_summarize:
         logging.warning("No text provided for long text summarization.")
@@ -115,7 +98,7 @@ def summarize_long_text(text_to_summarize, summarizer_pipeline, tokenizer, targe
             logging.warning(f"Skipping empty chunk {i+1}/{len(chunks)}")
             continue
         try:
-            summary_output = summarizer_pipeline(chunk, max_length=150, min_length=30, do_sample=False, truncation=True)[0]['summary_text']
+            summary_output = summarizer_pipeline(chunk, max_length=200, min_length=50, do_sample=False, truncation=True)[0]['summary_text']
             intermediate_summaries.append(summary_output)
             logging.info(f"  Summarized chunk {i+1}/{len(chunks)}")
         except Exception as e:
@@ -129,37 +112,23 @@ def summarize_long_text(text_to_summarize, summarizer_pipeline, tokenizer, targe
     logging.info("Generating final summary from combined intermediate summaries...")
     try:
         final_summary_output = summarizer_pipeline(combined_summary,
-                                                  max_length=FINAL_SUMMARY_MAX_TOKENS,
-                                                  min_length=FINAL_SUMMARY_MIN_TOKENS,
-                                                  do_sample=False,
-                                                  truncation=True)[0]['summary_text']
+                                                    max_length=FINAL_SUMMARY_MAX_TOKENS,
+                                                    min_length=FINAL_SUMMARY_MIN_TOKENS,
+                                                    do_sample=False,
+                                                    truncation=True)[0]['summary_text']
         word_count = len(final_summary_output.split())
         logging.info(f"Generated final summary (word count: {word_count}).")
-        if not (TARGET_SUMMARY_WORDS[0] <= word_count <= TARGET_SUMMARY_WORDS[1]):
-            logging.warning(f"Final summary word count ({word_count}) is outside target range {TARGET_SUMMARY_WORDS}.")
+        if not (target_words[0] <= word_count <= target_words[1]):
+            logging.warning(f"Final summary word count ({word_count}) is outside target range {target_words}.")
         return final_summary_output
     except Exception as e:
         logging.error(f"Error generating final summary: {e}")
         return None
 
-def save_summary_to_file(summary, filename=OUTPUT_FILE):
-    """Saves the generated summary to a text file."""
-    try:
-        with open(filename, 'w', encoding='utf-8') as f:
-            f.write(summary)
-        logging.info(f"Summary saved to '{filename}'")
-        return True
-    except Exception as e:
-        logging.error(f"Error saving summary to file '{filename}': {e}")
-        return False
-
-# --- Main Execution ---
+# --- Main Execution (for potential local checks) ---
 if __name__ == "__main__":
-    logging.info("--- Starting News Automation Process for India ---")
-    start_time = time.time()
-
+    logging.info("--- Starting News Automation Process for India (for potential local checks) ---")
     country_to_process = "india"
-    summary_content = None
 
     logging.info(f"Loading summarization model and tokenizer: {SUMMARIZER_MODEL}...")
     try:
@@ -177,12 +146,10 @@ if __name__ == "__main__":
         summary_content = summarize_long_text(news_content, summarizer, tokenizer)
         if summary_content:
             heading = country_to_process.upper().replace('-', ' ').title() + " News Summary"
-            logging.info(f"Generated summary for {country_to_process}.")
-            save_summary_to_file(f"[{heading}]\n{summary_content}")
+            logging.info(f"Generated summary for {country_to_process}:\n{summary_content}")
         else:
             logging.warning(f"Could not generate summary for {country_to_process}.")
     else:
         logging.warning(f"Skipping {country_to_process} due to fetch error or no data.")
 
-    end_time = time.time()
-    logging.info(f"--- News Automation Process Finished in {end_time - start_time:.2f} seconds ---")
+    logging.info("--- Finished ---")
