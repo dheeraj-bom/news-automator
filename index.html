@@ -1,71 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>India News Summary</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f8f8;
-        }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        #summary-container {
-            margin-top: 15px;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            white-space: pre-line; /* Preserve line breaks from the API */
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-        }
-        .loading {
-            color: #777;
-        }
-        .error {
-            color: #e74c3c;
-        }
-    </style>
+    <title>News Summarizer</title>
 </head>
 <body>
     <h1>India News Summary</h1>
-    <div id="summary-container" class="loading">
-        Loading latest summary...
-    </div>
+    <div id="summary">Loading latest summary...</div>
 
     <script>
-        async function fetchSummary() {
-            const summaryContainer = document.getElementById('summary-container');
-            summaryContainer.textContent = 'Loading latest summary...';
-            summaryContainer.classList.remove('error');
-            summaryContainer.classList.add('loading');
-            try {
-                const response = await fetch('https://api.dailynewshighlights.com/country/india/summary');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const data = await response.text();
-                summaryContainer.textContent = data;
-                summaryContainer.classList.remove('loading');
-            } catch (error) {
-                console.error('Error fetching summary:', error);
-                summaryContainer.textContent = 'Error loading summary.';
-                summaryContainer.classList.remove('loading');
-                summaryContainer.classList.add('error');
-            }
+        function updateSummary() {
+            fetch('https://api.dailynewshighlights.com/country/india/summary')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text(); // Changed from response.json() to response.text()
+                })
+                .then(text => { // Now we receive plain text
+                    document.getElementById('summary').textContent = text; // Display the text directly
+                })
+                .catch(error => {
+                    console.error('There was a problem fetching the summary:', error);
+                    document.getElementById('summary').textContent = 'Failed to load summary.';
+                });
         }
 
-        // Fetch summary on page load
-        fetchSummary();
-
-        // Fetch summary every hour (3600000 milliseconds)
-        setInterval(fetchSummary, 3600000);
+        updateSummary(); // Load the summary when the page loads
+        setInterval(updateSummary, 3600000); // Update the summary every hour (3600000 milliseconds)
     </script>
 </body>
 </html>
